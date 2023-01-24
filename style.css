@@ -1,0 +1,516 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: #1a1d1a;
+    height: 60px;
+}
+
+.main-1 {
+    margin: 0 350px;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    float: left;
+}
+
+.discord {
+    margin: 0 1145px;
+    padding-top: 13px;
+}
+
+.header-2 {
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 703px;
+}
+
+.menu-urls {
+    height: 65px;
+    border-bottom: 2px solid #efefef;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+    color: #7900FF;
+    height: 50px;
+}
+
+.menu ul li:hover {
+    border-bottom: 1px solid #1098F7;
+}
+
+.menu ul li a:hover {
+    color: #210047;
+}
+
+.menu ul li a {
+    color: #7900FF;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 70%;
+    float: left;
+}
+
+.main-2 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(img/anterior.png);
+    top: 35%;
+    left: 14%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url(img/proximo.png);
+    top: 35%;
+    right: 14%;
+}
+
+.slick-list {
+    width: 100% !important;
+}
+
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 5px solid #ffffff;
+    width: 26px;
+    height: 26px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slick-dots {
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 45%;
+    top: 600px;
+}
+
+li.slick-active button {
+    background: #7900FF;
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+.texto-destaque {
+    text-align: center;
+}
+
+.acerto {
+    left: -2%;
+    position: relative;
+}
+
+p {
+    color: #1A1D1A;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+}
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #1A1D1A;
+}
+.col-3 {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 29%;
+    float: left;
+    position: relative;
+    color: #1A1D1A;
+}
+
+.bloco-texto {
+    margin-top: 3em;
+}
+
+.about {
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+    font-size: 20px;
+    width: 800px;
+    left: 44%;
+    top: -10%;
+    transform: translate(-35%, 5%);
+    text-align: center;
+    background-color: #efefef;
+    line-height: 31px;
+}
+
+.about h1{
+    text-align: center;
+}
+
+.borda {
+    height: 677px;
+    border-bottom: 2px solid #efefef;
+}
+
+.borda-main {
+    height: 2300px;
+    border-bottom: 2px solid #efefef;
+}
+
+.rodape {
+    background-color: #1A1D1A;
+    width: 100%;
+    height: 200px;
+}
+
+.logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-img-main {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.rodape-main{
+    background-color: #1A1D1A;
+    position: absolute;
+    bottom: -1633px;
+    height: 210px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.rodape-staff{
+    background-color: #1A1D1A;
+    position: absolute;
+    bottom: -210px;
+    height: 210px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    bottom: 50%;
+    left: 22%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container-gerente {
+    position: relative;
+    display: flex;
+    bottom: 50%;
+    left: 28.3%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.container .card-fundador1{
+    position: relative;
+    width: 280px;
+    height: 285px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    background-image: url(img/skins-head/fundador-1280x285.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container .card-fundador2{
+    position: relative;
+    width: 280px;
+    height: 285px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    background-image: url(img/skins-head/fundador-2-280x285.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container .card-fundador3{
+    position: relative;
+    width: 280px;
+    height: 285px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    background-image: url(img/skins-head/fundador-3-280x285.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container .card-fundador4{
+    position: relative;
+    width: 280px;
+    height: 285px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5); 
+    border-radius: 15px;
+    background-image: url(img/skins-head/gerene280x285.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.container .card .content-staff h2{
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 3px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+    border-radius: 7px;
+}
+
+.container .card .content-staff h3{
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 3px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+    border-radius: 7px;
+}
+
+.container .card .content-staff p{
+    background-color: #ffffff;
+    margin: 2px;
+    padding: 3px;
+    margin-bottom: 35px;
+    font-family: 'Open Sans', sans-serif, 'Explora', cursive;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+
+.container .card .content-staff{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5;
+}
+
+.container .card:hover .content-staff{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+#h1 {
+    text-align: center;
+}
+
+.loja {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 1030px;
+    position: absolute;
+    left: 17.7%;
+    top: 25px;
+}
+
+.loja-bg {
+    position: absolute;
+    top: 1px;
+}
+
+.vip-hype { 
+    display: inline-block;
+    top: 55px;
+    left: 23%;
+    position: relative;
+    text-align: center;
+}
+
+.hype ,.hypemais,.hypex{
+    background-color: #1a1d1ad7;
+    border-radius: 50px;
+    padding: 20px;
+    border: 3px solid #551A8B;
+}
+
+.hype {
+    padding-top: 5px;
+    height: 408px;
+}
+
+.hype p, h1, h3{
+    color: white;
+}
+
+.hypemais p, h1, h3{
+    color: white;
+    bottom: 5px;
+    position: relative;
+}
+
+.hypex p, h1, h3{
+    color: white;
+}
+
+.vip-hypemais {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    left: 28.5%;
+}
+
+.vip-hypex {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 70px;
+    left: 34%;
+}
+
+#font-color {
+    color: red;
+}
+
+.borda-loja {
+    height: 423px;
+    border-bottom: 4px solid #efefef;
+}
+
+.pix {
+    width: 100%;
+    height: 700px;
+    position: absolute;
+}
+
+.rodape-loja {
+    background-color: #1A1D1A;
+    position: absolute;
+    bottom: -1440px;
+    height: 210px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pagar-pix {
+    left: 36%;
+    top: 360px;
+    position: relative;
+}
+
+@media screen and (max-width: 1440px) {
+    .header-2 {
+        margin: 0 470px;
+    }
+    .discord {
+        margin: 0 700px;
+    }
+    .rodape-staff {
+        bottom: -400px;
+    }
+    .container {
+        left: 14%;
+    }
+    .rodape-loja{
+        bottom: -1440px;
+    }
+    .loja {
+        left: 6%;
+    }
+    .vip-hype {
+        left: 13.7%;
+    }
+    .vip-hypemais {
+        left: 20.4%;
+    }
+    .vip-hypex{
+        left: 27%;
+    }
+    .rodape-loja {
+        bottom: -1600px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header-2 {
+        margin: 0 300px;
+    }
+    .discord {
+        margin: 0 400px;
+    }
+    .container-gerente {
+        left: -0.6%;
+    }
+}
